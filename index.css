@@ -1,0 +1,179 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-justify: auto;
+    font-size: 40px;
+    color: blanchedalmond;
+}
+
+p{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-seriff;
+    text-align: center;
+    font-size: 25px;
+    align-content: center;
+    color: blanchedalmond;
+}
+
+.header-menu-position{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+}
+
+nav.left-menu{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.left-menu-hamburger{
+    height: 5px;
+    width: 5px;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    background: #111;
+    font-size: 24px;
+    padding: 25px;
+}
+
+
+/*
+.left-menu-hamburger a{
+    font-size: 1.5em;
+    padding: 10px;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+*/
+.right-menu{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.right-menu a{
+    padding: 10px;
+    text-decoration: none;
+    color: blanchedalmond;
+    align-self: center;
+}
+
+.right-menu a:hover,
+.left-menu a:hover{
+    color: burlywood;
+}
+
+.left-menu a{
+    text-decoration: none;
+    color: blanchedalmond;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    align-self: center;
+}
+
+/*
+.fotr p{
+    text-align: left;
+    font-size: 18px;
+    font-family: monospace;
+    height: min-content;
+    color: #787878;
+}
+
+.fotr h4{
+    text-align: left;
+    font-size: 30px;
+    font-family: monospace;
+    color: #787878;
+}
+
+.cont{
+    text-align: right;
+    align-items: flex-end;
+    width: -50%;
+    font-size: 18px;
+    font-family: monospace;
+    height: min-content;
+    color: #787878;
+}
+
+.cont h4{
+    text-align: right;
+    font-size: 30px;
+    font-family: monospace;
+    color: #787878;
+}
+
+.fotr{
+    width: 50%;
+    align-items: flex-start;
+}
+*/
+
+footer{
+    bottom: 0px;
+    width: 100%;
+    background: #111;
+    color: #d9d9d9;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-content{
+    display: flex;
+
+}
+ .main-content .box{
+     flex-basis: 50%;
+     padding: 10px 20px;
+ }
+
+ .box h2{
+     font-size: 1.125rem;
+     font-weight: 600;
+     text-transform: uppercase;
+ }
+
+ 
+
+ .box .content{
+     margin: 20px 0 0 0;
+ }
+
+ .left .content p{
+     text-align: justify;
+ }
+
+ .left .content .social{
+     margin: 20px 0 0 0;
+ }
+
+ .left .content .social  a span{
+     height: 40px;
+     width: 40px;
+     background: #1a1a1a;
+     line-height: 40px;
+     text-align: center;
+     font-size: 18px;
+     border-radius: 5px;
+     transition: 0.3s;
+ }
+
+ .left .content .social  a span:hover{
+     background: #f12020;
+ }
+
+ .right a .contact .content{
+     align-items: center;
+ }
